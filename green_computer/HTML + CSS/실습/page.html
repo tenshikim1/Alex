@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>CSS Example</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/1-header.css" />
+	<link rel="stylesheet" type="text/css" href="css/2-body.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+
+	<style type="text/css">
+
+	
+
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 500px;
+       /** margin: 0 auto;*/
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
+}
+	 div #carousel-example-generic{
+        width: 600px;
+        height: 400px;
+        margin: auto;
+        
+    }
+
+    .carousel-inner img{
+        width: 100%;
+		height: 100%;
+    }
+
+	   #real_title:hover{
+        text-decoration: none;
+   }
+
+     #real_title:focus{
+        text-decoration: none;
+   }
+   a:hover{
+	   text-decoration: none;
+   }
+
+	</style>
+
+	<script>
+		$('.carousel').carousel({
+ 			 interval: 2000
+			})
+	</script>
+</head>
+
+<body>
+
+	<div id="container" class="clearfix">
+		<div id="box1" class=" visible-md visible-lg visible-sm">
+			<div id="topMenu" class="clear">
+			<ul class="topMenuNav">
+				<li><a href="#" >로그인</a></li>
+				<li><a href="#" >회원가입</a></li>
+				<li><a href="#" >고객센터</a></li>
+				<li><a href="#" >MY PAGE</a></li>
+			</ul>
+			</div>
+			<div>
+				<a id="real_title" href="#" style="color:black;"><h1 id="title">MAGIC SCHOOL</h1></a>
+			</div>
+		</div>
+		<div id="box2" class="clearfix visible-md visible-lg visible-sm">
+               <ul class="navUL">
+				<li class="dropdown">
+					<a  href="#"class="dropdown-toggle" data-toggle="dropdown">STAGE<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="page1.html">starter</a></li>
+							<li><a href="#">middle</a></li>
+							<li><a href="#">high</a></li>
+							<li><a href="#">pro</a></li>
+						</ul>
+				
+				</li>
+				<li><a href="#">CLOSE UP</a></li>
+				<li><a href="#">CARD</a></li>
+				<li><a href="#">COIN</a></li>
+				<li><a href="#">공지사항</a></li>
+			</ul>
+        </div>
+		<div id="box3" class=" visible-md visible-lg visible-sm">
+			   <form class='frm-login'>
+          			<fieldset>
+         			   <legend>로그인</legend>
+         			   <div>
+           			   <label>아이디</label>
+            			  <input type='text' name='user_id' placeholder='아이디를 입력하세요'/>
+            			</div>
+           				<div>
+            			  <label>비밀번호</label>
+             			 <input type='password' name='user_id' placeholder='비밀번호를 입력하세요'/>
+           			   </div>
+          			  <div>
+            			  <button type="button">로그인</button>
+        			      <button type="button">회원가입</button>
+        		     </div>
+         		 </fieldset>
+        	</form>
+		<div id="side">
+        	<ul id="gallery">
+          		<li>
+            		<a href="#">
+								<span class="thumb"><img src="img/magic-wand.png" alt="이미지1" /></span>
+								<span class="text">HUMAN</span>
+           		    </a>
+          	   </li>
+				 <li>
+            		<a href="#">
+								<span class="thumb"><img src="img/magician.png" alt="이미지2" /></span>
+								<span class="text">MAGICIAN</span>
+           		    </a>
+          	   </li>
+				 <li>
+            		<a href="#">
+								<span class="thumb"><img src="img/gold.png" alt="이미지3" /></span>
+								<span class="text">AMATUER</span>
+           		    </a>
+          	   </li>
+				 <li>
+            		<a href="#">
+								<span class="thumb"><img src="img/wizard.png" alt="이미지4" /></span>
+								<span class="text">WIZARD</span>
+           		    </a>
+          	   </li>
+				<li>
+            		<a href="#">
+								<span class="thumb"><img src="img/crown.png" alt="이미지5" /></span>
+								<span class="text">PRO</span>
+           		    </a>
+          	   </li>
+        	</ul>
+		</div>
+		</div>
+		<div id="box4" class=" visible-md visible-lg visible-sm">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+ 					 <ol class="carousel-indicators">
+    					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  						</ol>
+
+  <!-- Wrapper for slides -->
+ 						 <div class="carousel-inner" role="listbox">
+   							 <div class="item active">
+   							   <img src="img/magic1.jpg" alt="">
+    					 			 <div class="carousel-caption">
+     						   
+     								 </div>
+  							  </div>
+  				  <div class="item">
+     				 <img src="img/magic2.jpg" alt="...">
+      					<div class="carousel-caption">
+       					 ...
+     					 </div>
+  					  </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	
+
+
+
+		</div>
+		<div id="box5" class=" visible-md visible-lg visible-sm">박스5</div>
+        <div id="box6" class=" visible-md visible-lg visible-sm">박스6</div>
+	</div>
+</body>
+
+
+
+<!--======================모바일==============================-->
+
+<div id="header" class="visible-xs">
+			<h1><a id="m_title" href="page.html">HTML 교육센터</a></h1>
+			<ul>
+				<li>
+					<div class="container">
+   <div class="row">
+      <div class="col-md-12">
+            <div class="input-group" id="adv-search">
+                <input type="text" class="form-control" placeholder="Search for snippets" />
+                <div class="input-group-btn">
+                    <div class="btn-group" role="group">
+                        <div class="dropdown dropdown-lg">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                            <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                <form class="form-horizontal" role="form">
+                                  <div class="form-group">
+                                    <label for="filter">Filter by</label>
+                                    <select class="form-control">
+                                        <option value="0" selected>All Snippets</option>
+                                        <option value="1">Featured</option>
+                                        <option value="2">Most popular</option>
+                                        <option value="3">Top rated</option>
+                                        <option value="4">Most commented</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Author</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Contains the words</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                  <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                </form>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+   </div>
+</div>
+				</li>
+			</ul>
+		</div>
+		<hr />
+
+		<div id="content" class="visible-xs">
+			<ul>
+				<li><a href="page1.html">초급</a></li>
+				<li><a href="#">중급</a></li>
+				<li><a href="#">고급</a></li>
+				<li><a href="#">프로</a></li>
+			</ul>
+		</div>
+
+		<hr />
+
+		<div id="footer" class="visible-xs">
+			<address>
+				<li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+			</address>
+			<span>
+				<a href="info.html">
+					<img src="img/btn_info.png" alt="센터소개" /></a>
+			</span>
+			<ul>
+                <li>
+					<a href="#">
+						<img src="img/kakaotalk.png" alt="트위터" /></a></li>
+				<li>
+					<a href="#">
+						<img src="img/twitter_logo.jpg" alt="트위터" /></a></li>
+				<li>
+					<a href="#">
+						<img src="img/facebook_logo.png" alt="페이스북" /></a></li>
+			</ul>
+
+		</div>
+
+		<hr />
+
+</html>

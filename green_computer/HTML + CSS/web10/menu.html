@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>CSS Example</title>
+
+	<style type="text/css">
+        * { margin: 0; padding: 0;}
+        #title { position: relative; height:100px; width: 300px; float:left;}
+        #topMenu{ position: absolute; right:0; top:0;}
+		#topMenu{ float:right;}
+        #topMenuNav>ul{overflow:hidden;}
+        #topMenuNav>ul>li{ float:left;}
+        #topMenuNav>ul>li>a{display:block; padding: 2px 10px; border: 1px solid black; }
+
+        
+	</style>
+</head>
+
+<body>
+    <header>
+    <div id="title">
+    <h1>Alex Development</h1>
+    <h2>HTML5 + CSS Basic</h2>
+    </div>
+	<div id="topMenu">
+        <ul id="topMenuNav">
+            <li><a href="#">Web</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Game</a></li>
+            <li><a href="#">simulation</a></li>
+            <li><a href="#">Data</a></li>
+        </ul>
+    </div>
+    </header>
+</body>
+
+</html>

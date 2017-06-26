@@ -1,0 +1,153 @@
+      * {
+		margin:0;
+		padding:0;
+		}
+
+        .clear:after{
+            clear: both;
+            float: none;
+            content:'';
+            display: block;
+        }
+
+		html, body{
+			height: 100%;
+		}
+#container{
+			width: 1000px;
+			
+			padding: 10px;
+			margin: auto;
+		 }
+#header{
+    
+    width: auto;
+    height: 100px;
+    background-color: #f1f1f1;
+}
+ol, ul {
+    list-style: none;
+}
+
+#header a{
+    padding: 5px 0px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-left: 1px dotted #cccccc; /*padding이 들어가는데 이게 어떻게 꽉 채우는지 모르겠음*/
+}
+
+#header ul{ 
+    border: 1px solid black;
+    margin-top: 30px; 
+}
+
+
+#header li{
+    
+    width:20%;
+    display: inline-block;
+    text-align: center;    
+}
+
+#header li:first-child a{
+    height: auto;
+    width: auto;
+    border-left: 0;
+}
+
+#body{
+    width: 800px;
+    min-height: 300px;
+    float:left;
+}
+
+#sidebar{
+		width:200px;
+		background-color: aquamarine;
+		min-height: 200px;
+		float:left;
+}
+
+#content li{
+    width:25%;
+    float:left;
+}
+
+#gallery li a{
+    display: block;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+#gallery span {
+    display: block;
+    width: auto;
+}
+#gallery img{
+    width: 100%;
+}
+#gallery .text{
+    width: 95%;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.frm-login{
+    padding: 13px;
+}
+#sidebar fieldset{
+    border:none;
+}
+
+#sidebar legend{
+    display:none; 
+    
+}
+
+#sidebar label{
+    color: #fff; text-shadow: 0px 1px 1px #000;
+}
+
+#sidebar input{
+    height: 20px;
+    width: 80%;
+}
+#sidebar div:nth-child(2) {
+    padding: 13px 0px;
+}
+#sidebar div:last-child{
+    margin: auto;
+    padding: 13px 0px;
+}
+#sidebar button{
+    height:30px;
+    width: 37%;
+}
+
+
+
+#footer{
+    background-color: #f1f1f1;
+	height: 100px;
+	width: auto;
+}
+#footer address{
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 20px 0px ;
+}

@@ -1,0 +1,27 @@
+CSS박스 모델
+크기와 관련된 속성
+내용영역 - width, height ==> 고정사이즈. 내용이 많으면 박스를 벗어난다.
+    해결책 (1) overflow속성(overflow-x, overflow-y): scroll, hidden, auto
+            ==>  벗어나는 내용에 대한 잘림, 스크롤 처리
+          (2) min-width, min-height, max-width, max-height
+            ==>  최소, 최대 크기를 지정하여 박스의 크기를 동적으로 변환
+    테두리 -  border : 굵기 종류 색상;
+       굵기 : none, solid(직선), dotted(점선), dashed(끊긴선)
+       위치별로 지정 가능 : border-top, border-right,
+                        border-bottom, border-left
+    안쪽 여백 - padding --> 1개(상,하,좌,우)    2개(상,하/좌,우),
+                          4개(상단부터 시계방향)
+
+위치와 관련된 속성
+    margin:  바깥 여백 (값 부여 방식은 padding과 동일)
+     자신의 위치를 이동시키거나 다른요소를 밀어내는 기능
+     음수값을 지정할 경우 끌어 당기는 효과.
+     서로 마주보고 작용하는 margin은 겹치는 특성이 있음.
+
+효과 관련
+    border-radius : 모서리 둥글게 만들기
+        상단왼쪽부터 시계방향
+
+    box-shadow : 박스 그림자
+        [inset] x방향 y방향 번짐정도 색상;
+

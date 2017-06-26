@@ -1,0 +1,20 @@
+부트스트랩이란?
+
+부트스트랩이란? 트위터 부트스트랩은 웹디자인을 쉽게하기 위해서 CSS의 클래스 선택자에 정의된 스타일시트와 자바스크립트 플러그인의 라이브러리입니다. html로 웹페이지의 뼈대를 만들고 스타일시트에서 레이아웃을 만들기 위한 CSS의 속성과 값을 입력하는 대신 미리 정의된 클래스 선택자를 html 코드에 삽입만 하면 레이아웃과 각종 요소가 만들어집니다.
+
+Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
+
+출처: 부트스트랩 웹 사이트
+
+
+
+
+
+
+부트스트랩의 특징
+
+부트스트랩의 홈페이지에서도 언급하고 있듯이 부트스트랩을 다루기 위해서는 html과 CSS에 대한 지식을 필요로 합니다. 그렇다고 깊은 지식이 필요한 것은 아니며 html 태그의 사용법, 역할을 알고 있으면 되고 CSS는 혼자서 레이아웃을 만들줄만 알면 됩니다.
+
+Make use of a super basic HTML template, or dive into a few examples we've started for you. We encourage folks to iterate on these examples and not simply use them as an end result.
+
+출처: 부트스트랩 웹 사이트

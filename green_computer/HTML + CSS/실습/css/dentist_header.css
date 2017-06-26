@@ -1,0 +1,83 @@
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+*,body {margin:0; padding:0; font-family:"Nanum Gothic";}
+
+div, a, article, header, aside, footer, figure, figcaption, img, span, p, ul, li, ol, dd, dl, dt, h1,h2,h3,h4,h5,h6,hgroup, blockquote, section, canvas, input, label, form {position:relative;}
+li {list-style:none;}
+a {text-decoration:none;}
+img {border:none; vertical-align:middle; max-width:100%;}
+
+
+body > h1 {width:100%; text-align:center; margin:15px auto;}
+
+ 
+@media screen and (min-width:768px)
+{
+div#topMenu{ width:auto; height:40px; background-color:#f1f1f1;  }
+
+        #headerwrap ul {
+			float: right;
+            margin: 10px 0px;
+		}
+		#headerwrap ul>li {
+			float: left;
+			text-align: center;
+
+		}
+
+		
+		#headerwrap li a{
+			display: block;
+			padding: 5px 15px;
+			width: auto;
+			border-left: 1px dotted #cccccc;
+			text-decoration: none;
+			color : #222;
+			font-size:5px; font-weight:bold;
+		}
+
+		
+       ul {
+            list-style: none;
+			padding:0;
+			margin:0;
+        }
+
+
+.px1200 {width:1200px; margin:0 auto;}
+.flla {float:left;}
+.snsicons_mobile {display:none;}
+.m_dudtkd1 {display:none;}
+#m_header {display:none;}
+body {min-width:1200px;}
+
+
+header {width:100%; height:36px; border-bottom:1px solid #d1d1d1;}
+header ul {overflow:hidden; letter-spacing:-0.05em; }
+header ul.fll li {height:36px; line-height:36px; font-size:13px; float:left; border-left:1px solid #d1d1d1; padding:0 20px 0 10px; background:url(/img/blit1.png) no-repeat right center; margin-left :10px;}
+header ul.fll li+li+li {background:none;}
+header li a {color:#5a5a5a;}
+header ul.flr {border-right:1px solid #d1d1d1; height:36px; line-height:36px; border-left:1px solid #d1d1d1; padding:0 10px;}
+header ul.flr li { font-size:12px; height:36px; line-height:36px; }
+header ul.flr li strong {color:#1ca3d5; padding-left:15px; font-size:13px;}
+header ul.submenu{ margin-top: -20px;}
+
+
+nav {width:100%; border-top:1px solid #d1d1d1; border-bottom:1px solid #d1d1d1;  height:81px;}
+#gnb::after {content:"";}
+#gnb > li {width:171px; float:left;}
+#gnb > li:first-child > a {width:169px !important; border-left:1px solid #d1d1d1;}
+#gnb > li > a {color:#464646; border-right:1px solid #d1d1d1; text-align:center; padding:20px 0; width:171px; display:block; } 
+#gnb > li > a > span {display:block;}
+#gnb > li > a > span:first-child {font-size:15px; font-weight:bold; letter-spacing:-0.05em;  }  
+#gnb > li > a > span+span { font-size:10px; text-transform:uppercase; margin-top:5px;}
+#gnb > li > a:hover {background:#5fcaf1; color:#fff !important;}
+a.hov1 {background:#5fcaf1; color:#fff !important;}
+
+#gnb > div> li {width:171px; float:left;}
+#gnb > div>li:first-child > a {width:169px !important; border-left:1px solid #d1d1d1;}
+#gnb > div>li > a {color:#464646; border-right:1px solid #d1d1d1; text-align:center; padding:20px 0; width:171px; display:block; } 
+#gnb > div>li > a > span {display:block;}
+#gnb > div>li > a > span:first-child {font-size:15px; font-weight:bold; letter-spacing:-0.05em;  }  
+#gnb > div>li > a > span+span { font-size:10px; text-transform:uppercase; margin-top:5px;}
+#gnb > div>li > a:hover {background:#5fcaf1; color:#fff !important;}
+}

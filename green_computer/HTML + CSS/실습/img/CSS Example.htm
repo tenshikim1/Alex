@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<!-- saved from url=(0122)file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html# -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>CSS Example</title>
+
+	<link rel="stylesheet" type="text/css" href="./CSS Example_files/clinic-header.css">
+    <link rel="stylesheet" type="text/css" href="./CSS Example_files/clinic-body.css">
+	<link rel="stylesheet" href="./CSS Example_files/bootstrap.min.css">
+	<link rel="stylesheet" href="./CSS Example_files/bootstrap-theme.min.css">
+	<script src="./CSS Example_files/jquery.min.js"></script>
+	<script src="./CSS Example_files/bootstrap.min.js"></script>
+	<style>
+        tbody td:nth-child(2){
+            text-align: left;
+            color:#333333;
+            font-family: Tahoma,굴림,돋움;
+
+        }
+
+        tbody td:nth-child(1),tbody td:nth-child(4),tbody td:nth-child(5),
+        tbody td:nth-child(6),tbody td:nth-child(7){
+            font: normal 11px tahoma;
+            color: #BABABA;
+        }
+
+        tbody td:nth-child(3) {
+            font-weight: bold;
+            color: #888888;
+            font-family: Tahoma,굴림,돋움;
+            font-size: 9pt;
+        }
+    </style> 
+
+</head>
+
+<body>
+
+	<div id="container" class="clearfix col-md-12">
+		<div id="box1" class="clearfix col-md-12">
+            <div id="topMenu" class="clearfix">
+			<ul class="topMenuNav">
+				<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">로그인</a></li>
+				<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">회원가입</a></li>
+				<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">고객센터</a></li>
+				<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">MY PAGE</a></li>
+			</ul>
+            </div>
+            	<div>
+				<h1 id="title">MAGIC SCHOOL</h1>
+			    </div>
+			</div>
+        </div>
+		<div id="box2" class="clearfix col-md-12">
+                       <ul class="navUL">
+				<li class="dropdown">
+					<a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#" class="dropdown-toggle" data-toggle="dropdown">STAGE<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">starter</a></li>
+							<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">middle</a></li>
+							<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">high</a></li>
+							<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">pro</a></li>
+						</ul>
+				</li>
+				<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">CLOSE UP</a></li>
+				<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">CARD</a></li>
+				<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">COIN</a></li>
+				<li><a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">공지사항</a></li>
+			</ul>
+        
+        </div>
+		<div id="box3" class="col-md-3">
+            <form class="frm-login">
+          			<fieldset>
+         			   <legend>로그인</legend>
+         			   <div>
+           			   <label class="sr-only">아이디</label>
+            			  <input type="text" name="user_id" placeholder="아이디를 입력하세요">
+            			</div>
+           				<div>
+            			  <label class="sr-only">비밀번호</label>
+             			 <input type="password" name="user_id" placeholder="비밀번호를 입력하세요">
+           			   </div>
+          			  <div>
+            			  <button type="button">로그인</button>
+        			      <button type="button">회원가입</button>
+        		     </div>
+         		 </fieldset>
+        	</form>
+
+            <ul id="gallery">
+          		<li>
+            		<a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+								<span class="thumb"><img src="./CSS Example_files/magic-wand.png" alt="이미지1"></span>
+								<span class="text">HUMAN</span>
+           		    </a>
+          	   </li>
+				 <li>
+            		<a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+								<span class="thumb"><img src="./CSS Example_files/magician.png" alt="이미지2"></span>
+								<span class="text">MAGICIAN</span>
+           		    </a>
+          	   </li>
+				 <li>
+            		<a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+								<span class="thumb"><img src="./CSS Example_files/gold.png" alt="이미지3"></span>
+								<span class="text">AMATUER</span>
+           		    </a>
+          	   </li>
+				 <li>
+            		<a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+								<span class="thumb"><img src="./CSS Example_files/wizard.png" alt="이미지4"></span>
+								<span class="text">WIZARD</span>
+           		    </a>
+          	   </li>
+				<li>
+            		<a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+								<span class="thumb"><img src="./CSS Example_files/crown.png" alt="이미지5"></span>
+								<span class="text">PRO</span>
+           		    </a>
+          	   </li>
+        	</ul>
+		</div>
+        
+        <div id="box4" class="col-md-9">
+            <table width="99%" align="center" cellspacing="2" cellpadding="2" style="border-top:2px solid #333333;
+                border-bottom:1px solid #333333; border-left: 1px solid #888888; border-right:1px solid #888888 
+                background-color: red;">
+                <tbody>
+                    <tr>
+                        <td width="50%">
+                            <table width="98%" align="center" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                        <td width="100%" height="30">
+                            <table width="98%" align="center" cellspacing="0" cellpadding="0" style="border-bottom:1px solid #dddddd;">
+                                <tbody>
+                                    <tr>
+                                        <td width="100%" height="30">
+                                            <strong>오늘 조회순</strong>
+                                        </td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td width="100%" height="140">
+                            <table width="98%" align="center" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td width="22" height="25">
+                                            <img src="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/.gif" border="0" alt="1위" align="absmiddle">
+                                        </td>
+                                        <td width="" height="25">
+                                            <a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+                                                <font style="font-family: 돋움; font-size:9pt; color:#333333;">아프리카 여BJ 방송사고</font>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                        <tr>
+                                    <td width="22" height="25">
+                                            <img src="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/.gif" border="0" alt="2위" align="absmiddle">
+                                        </td>
+                                        <td width="" height="25">
+                                            <a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+                                                <font style="font-family: 돋움; font-size:9pt; color:#333333;">군대 레전드 퓰리쳐상 모음</font>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                        <tr>
+                                        <td width="22" height="25">
+                                            <img src="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/.gif" border="0" alt="3위" align="absmiddle">
+                                        </td>
+                                        <td width="" height="25">
+                                            <a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+                                                <font style="font-family: 돋움; font-size:9pt; color:#333333;">유격 조교 레전드</font>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td width="22" height="25">
+                                            <img src="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/.gif" border="0" alt="3위" align="absmiddle">
+                                        </td>
+                                        <td width="" height="25">
+                                            <a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+                                                <font style="font-family: 돋움; font-size:9pt; color:#333333;">유격 조교 레전드</font>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td width="22" height="25">
+                                            <img src="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/.gif" border="0" alt="3위" align="absmiddle">
+                                        </td>
+                                        <td width="" height="25">
+                                            <a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+                                                <font style="font-family: 돋움; font-size:9pt; color:#333333;">유격 조교 레전드</font>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </td>
+       <td width="50%" style="border-left:2px solid #dddddd;">
+           <table width="98%" align="center" cellspacing="0" cellpadding="0">
+                 <tbody>
+                    <tr>
+                        <td width="100%" height="30">
+                            <table width="98%" align="center" cellspacing="0" cellpadding="0" style="border-bottom: 1px solid #dddddd">
+                                <tbody>
+                                    <tr>
+                                        <td width="100%" height="30">
+                                     <strong>오늘 추천순</strong>
+                                        </td>
+                                     </tr>
+                               </tbody>
+                             </table>
+                            </td> 
+                          </tr>
+
+                          <tr>
+                        <td width="100%" height="140">
+                            <table width="98%" align="center" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td width="22" height="25">
+                                            <img src="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/.gif" border="0" alt="1위" align="absmiddle">
+                                        </td>
+                                        <td width="" height="25">
+                                            <a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+                                                <font style="font-family: 돋움; font-size:9pt; color:#333333;">아프리카 여BJ 방송사고</font>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                        <tr>
+                                    <td width="22" height="25">
+                                            <img src="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/.gif" border="0" alt="2위" align="absmiddle">
+                                        </td>
+                                        <td width="" height="25">
+                                            <a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+                                                <font style="font-family: 돋움; font-size:9pt; color:#333333;">군대 레전드 퓰리쳐상 모음</font>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                        <tr>
+                                        <td width="22" height="25">
+                                            <img src="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/.gif" border="0" alt="3위" align="absmiddle">
+                                        </td>
+                                        <td width="" height="25">
+                                            <a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+                                                <font style="font-family: 돋움; font-size:9pt; color:#333333;">유격 조교 레전드</font>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td width="22" height="25">
+                                            <img src="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/.gif" border="0" alt="3위" align="absmiddle">
+                                        </td>
+                                        <td width="" height="25">
+                                            <a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+                                                <font style="font-family: 돋움; font-size:9pt; color:#333333;">유격 조교 레전드</font>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td width="22" height="25">
+                                            <img src="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/.gif" border="0" alt="3위" align="absmiddle">
+                                        </td>
+                                        <td width="" height="25">
+                                            <a href="file:///Users/gimcheonsu/green_computer/HTML%20+%20CSS/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%B3%E1%86%B8/clinic.html#">
+                                                <font style="font-family: 돋움; font-size:9pt; color:#333333;">유격 조교 레전드</font>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                 </tbody>
+           </table>
+       </td>   
+    </tr>     
+</tbody>
+</table>
+
+
+
+
+        </div>
+        <div id="box5" class="col-md-9">
+            <table class="table" style="text-align: center;">
+                <thead>
+                    <tr>
+                        <th width="10%" style="text-align: center;">번호</th>
+                        <th style="text-align: center;">제 목</th>
+                        <th width="10%" style="text-align: center;">글쓴이</th>
+                        <th width="7%" style="text-align: center; color:#337ab7;">날짜</th>
+                        <th width="5%" style="text-align: center; color:#337ab7;">조회</th>
+                        <th width="6%" style="text-align: center; color:#337ab7;">추천</th>
+                        <th width="7%" style="text-align: center; color:#337ab7;">비추천</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>912</td>
+                        <td>화재진압 현장에 들어가는 소방관들.gif</td>
+                        <td>엠봉성님</td>
+                        <td>02-09</td>
+                        <td>9225</td>
+                        <td>0</td>
+                        <td>25</td>
+                    </tr>
+                       <tr>
+                        <td>912</td>
+                        <td>화재진압 현장에 들어가는 소방관들.gif</td>
+                        <td>엠봉성님</td>
+                        <td>02-09</td>
+                        <td>9225</td>
+                        <td>0</td>
+                        <td>25</td>
+                    </tr>
+                       <tr>
+                        <td>912</td>
+                        <td>화재진압 현장에 들어가는 소방관들.gif</td>
+                        <td>엠봉성님</td>
+                        <td>02-09</td>
+                        <td>9225</td>
+                        <td>0</td>
+                        <td>25</td>
+                    </tr>
+                       <tr>
+                        <td>912</td>
+                        <td>화재진압 현장에 들어가는 소방관들.gif</td>
+                        <td>엠봉성님</td>
+                        <td>02-09</td>
+                        <td>9225</td>
+                        <td>0</td>
+                        <td>25</td>
+                    </tr>
+                       <tr>
+                        <td>912</td>
+                        <td>화재진압 현장에 들어가는 소방관들.gif</td>
+                        <td>엠봉성님</td>
+                        <td>02-09</td>
+                        <td>9225</td>
+                        <td>0</td>
+                        <td>25</td>
+                    </tr>
+                       <tr>
+                        <td>912</td>
+                        <td>화재진압 현장에 들어가는 소방관들.gif</td>
+                        <td>엠봉성님</td>
+                        <td>02-09</td>
+                        <td>9225</td>
+                        <td>0</td>
+                        <td>25</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+	
+	
+
+
+</body></html>

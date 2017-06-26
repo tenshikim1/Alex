@@ -1,0 +1,65 @@
+.frm-login{
+    height: 200px;
+    padding: 13px;
+}
+
+#box3 fieldset{
+    border:none;
+}
+
+#box3 legend{
+    display:none; 
+    
+}
+
+#box3 label{
+color: #000; 
+}
+
+#box3 input{
+    height: 20px;
+    width: 90%;
+    width: 150px;
+}
+#box3 div:nth-child(2) {
+    padding: 13px 0px;
+}
+#box3 div:last-child{
+    margin: auto;
+    padding: 13px 0px;
+}
+#box3 button{
+    height:30px;
+}
+a{
+   
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+ #gallery li a:hover{
+    color:orange;
+}
+
+#gallery .text{
+    font-size: 23px; 
+    font-weight: bold;
+    display: inline-block;
+}
+#gallery li:last-child a{
+    text-shadow: 0 0 4px #ccc,
+						0 -5px 4px #ff3,
+						2px -10px 6px #fd3,
+						-2px -15px 11px #f80,
+						2px -19px 18px #f20;
+}
+
+#gallery li:nth-child(4) a{
+    text-shadow: 0 0 4px #ccc,
+						0 -5px 4px #ff3,
+						2px -10px 6px #fd3,
+						-2px -15px 11px #f80,
+						2px -19px 18px #f20;
+}
+

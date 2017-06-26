@@ -1,0 +1,22 @@
+
+배경 관련 속성
+
+background-color : 색상값;
+background-image : url('이미지경로');
+background-position : 가로 세로;
+            <-- left right top bottom center px값;
+background-repeat : repeat | no-repeat | repeat-x | repeat-y;
+background-attachment: scroll | fixed;
+
+==> background 속성에 일괄 지정 가능함.
+
+위치 지정
+
+    position: relative(상대) | absolute(절대) | fixed(고정);
+
+    left, right, top, bottom 으로 위치 지정
+    z-index로 겹치는 순서 지정
+
+    ==> 요소의 위치는 absolute로 설정, 단, 부모 요소에게 relative를 부여하여
+        기준점을 부모로 설정.
+        

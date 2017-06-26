@@ -1,0 +1,5 @@
+HTML5란?
+
+HTML5는 이름에서 알 수 있듯이 HTML(Hyper Text Markup Language)의 최신 버전으로, 현재 폭넓게 사용되고 있는 HTML은 정확하게는 XHTML 1.0이다.
+
+HTML5은 표준화단체인 W3C가 커뮤니티인 WHATWG와 공동으로 책정 중인 HTML의 최신판이다. HTML5는 웹 애플리케이션을 개발하기 위한 플랫폼 사양으로 책정되고 있다는 것이 최대 특징이다.
